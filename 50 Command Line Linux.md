@@ -85,42 +85,43 @@ mudah dibaca oleh manusia</p>
 <h2>28. ps</h2>
 <img src="https://github.com/user-attachments/assets/a0b5eb36-8360-4b87-b105-94145e4ef187" width=300/>
 <p> perintah ini digunakan untuk menampilkan informasi tentang proses yang sedang berjalan di sistem.</p>
-<h2>29. </h2>
+<h2>29. touch so.txt</h2>
 <img src="https://github.com/user-attachments/assets/f9f7aa37-4343-4463-89ae-e65809718cf2" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>30. </h2>
+<p> perintah ini digunakan untuk membuat file kosong.</p>
+<h2>30. cd Documents/</h2>
 <img src="https://github.com/user-attachments/assets/01792176-73aa-4b61-8026-8687c4c1d27e" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>31. </h2>
+<p> perintah ini digunakan untuk pindah ke direktori yang kita inginkan, contohnya ke direktori Documents. Lalu ketik cd lagi jika ingin kembali ke direktori home.</p>
+<h2>31. head angka.txt</h2>
 <img src="https://github.com/user-attachments/assets/05b12d84-d3bd-4edc-8b3a-fcb3297309b5" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>32. </h2>
+<p> perintah ini digunakan untuk menampilkan isi suatu berkas yang mana perintah ini hanya menampilkan 10 baris pertama dari isi berkas.</p>
+<h2>32. tail angka.txt</h2>
 <img src="https://github.com/user-attachments/assets/345737ea-622d-4b27-96da-b702ae6a319e" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>33. </h2>
+<p> perintah ini digunakan untuk menampilkan sepuluh baris terakhir dari isi berkas.Perintah ini berguna untuk memeriksa jika terjadi kesalahan penulisan.</p>
+<h2>33. cut</h2>
 <img src="https://github.com/user-attachments/assets/bc224558-fda7-49b6-bdc4-72785f3b0cfb" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>34. </h2>
+<p> perintah ini digunakan untuk memilih kolom tertentu dari suatu berkas. Opsi -d digunakan sebagai pemisah (bisa merupakan spasi), dan opsi -f digunkan untuk memilih nomor kolom.</p>
+<h2>34. > log.txt</h2>
 <img src="https://github.com/user-attachments/assets/a9213b1f-df21-468b-9064-c318c4b3e53b" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>35. </h2>
+<p> perintah ini digunakan untuk mengosongkan file log.txt atau membuat baru jika belum ada.</p>
+<h2>35. ls -al</h2>
 <img src="https://github.com/user-attachments/assets/fec5711c-2b9d-4403-8495-ba96d85bcc54" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>36. </h2>
+<p> perintah ini digunakan untuk menampilkan daftar file dan direktori dengan informasi detail termasuk file
+tersembunyi.</p>
+<h2>36. ls -l</h2>
 <img src="https://github.com/user-attachments/assets/45fcce59-39c0-4899-8966-c693ca495740" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>37. </h2>
+<p> perintah ini digunakan untuk menampilkan daftar file dan direktori dengan informasi detail.</p>
+<h2>37. clear</h2>
 <img src="https://github.com/user-attachments/assets/46f2c5e7-bb80-4cb8-ae75-87df7cb7c2f3" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>38. </h2>
+<p> perintah ini digunakan untuk membersihkan layar terminal.</p>
+<h2>38. time</h2>
 <img src="https://github.com/user-attachments/assets/57d1f413-a3c6-4b78-8f2b-068156b5e5a9" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>39. </h2>
+<p> perintah ini digunakan untuk mengukur waktu eksekusi dari sbuah perintah atau program.</p>
+<h2>39. sudo apt instal ncal</h2>
 <img src="https://github.com/user-attachments/assets/e7ff5d7f-a32a-4c7e-9ce7-7604299500db" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>40. </h2>
+<p> perintah ini digunakan untuk menginstall program ncal (kalender) pada terminal.</p>
+<h2>40. df</h2>
 <img src="https://github.com/user-attachments/assets/fa927e2f-4fee-4ef1-9c40-3d8c92094dd7" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>41. </h2>
+<p> perintah ini digunakan untuk menampilkan ruang disk yang digunakan dalam sistem file.Perintah ini akan menampilkan seberapa banyak ruang disk yang telah digunakan dan berapa banyak yang tersisa pada setiap partisi yang terpasang.</p>
+<h2>41. mount</h2>
 <img src="https://github.com/user-attachments/assets/f75a2f68-02c5-41bb-99ca-ab30d3ee5b07" width=300/>
-<p> perintah ini digunakan untuk </p>
+<p> perintah ini digunakan untuk memasang sistem file ke direktori tertentu pada sistem file linux sehingga dapat di akses oleh sistem.</p>

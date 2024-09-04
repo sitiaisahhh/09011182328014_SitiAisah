@@ -17,8 +17,8 @@
 <h2> PEMBAHASAN </h2>
 <h3> Proses Instalasi Ubuntu </h3>
 
-1. Unduh Ubuntu 24.04 LTS dari Google dan unduh juga Rufus** (karena kita akan menggunakan flash disk, Rufus diperlukan untuk mentransfer Ubuntu ke flash disk). Selanjutnya, alokasikan 50 GB dari ruang penyimpanan yang ingin dipartisi di Disk Management untuk ruang penyimpanan Ubuntu.
-2. Sesuaikan pengaturan BIOS untuk booting dan pastikan untuk menonaktifkan secure boot.
+1. Download ISO Ubuntu 24.04 LTS dari Google dan alokasi memori.
+2. Kemudian instal virtual box.
 3. Setelah proses booting selesai, akan muncul opsi seperti pada gambar di bawah. Pilih "Try or Install Ubuntu" untuk memulai proses instalasi Ubuntu.<br/>
 <img src="https://github.com/user-attachments/assets/c3150daa-f008-4cf2-ac23-3a00fea13e55" width=500/><br/>
 4. pilih bahasa English untuk pilihan bahasanya lalu kemudian next. <br/>

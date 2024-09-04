@@ -47,45 +47,43 @@ mudah dibaca manusia.</p>
 <p> perintah ini digunakan untuk menampilkan daftar isi suatu direktori.</p>
 <h2>16. cal</h2>
 <img src="https://github.com/user-attachments/assets/a99c917d-9940-4042-b940-8c5d7d898954" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>17. </h2>
+<p> perintah ini digunakan untuk menampilkan kalender di terminal.</p>
+<h2>17. df -h</h2>
 <img src="https://github.com/user-attachments/assets/a6a0dd55-d136-4690-9e84-e56532790388" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>18. </h2>
+<p> perintah ini digunakan untuk menampilkan informasi penggunaan disk dengan human friendly atau
+mudah dibaca oleh manusia</p>
+<h2>18. uname -r</h2>
 <img src="https://github.com/user-attachments/assets/c1dbf0f1-4cd5-4460-8150-acaacfa2df12" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>19. </h2>
+<p> perintah ini digunakan untuk menampilkan versi kernel linux yang sedang digunakan.</p>
+<h2>19. !!</h2>
 <img src="https://github.com/user-attachments/assets/fb9742ea-7fce-4b79-bcb4-037fdb6bc93b" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>20. </h2>
+<p> perintah ini digunakan untuk menjalankan kembali perintah sebelumnya/terakhir.</p>
+<h2>20. history</h2>
 <img src="https://github.com/user-attachments/assets/29469d5a-69ab-4129-8798-ebda00190b4c" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>21. </h2>
+<p> perintah ini digunakan untuk menampilkan command/perintah yang sebelumnya.</p>
+<h2>21. pwd</h2>
 <img src="https://github.com/user-attachments/assets/7ad49c7d-1a94-4cc5-835c-7cc70fb1fa88" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>22. </h2>
+<p> perintah ini digunakan untuk menampilkan lokasi direktori kerja yang sedang digunakan.</p>
+<h2>22. mkdir</h2>
 <img src="https://github.com/user-attachments/assets/ea5f02a9-9762-4f02-8e9a-7701e199fb5b" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>23. </h2>
+<p> perintah ini digunakan untuk membuat direktori (folder) baru di direktori manapun.</p>
+<h2>23. rmdir</h2>
 <img src="https://github.com/user-attachments/assets/bb291198-4772-432c-9748-2899e7c9f726" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>24. </h2>
+<p> perintah ini digunakan untuk menghapus direktori.</p>
+<h2>24. rm</h2>
 <img src="https://github.com/user-attachments/assets/e0581842-8263-41f8-a22a-f4ac1439e355" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>25. </h2>
+<p> perintah ini digunakan untuk menghapus berkas.</p>
+<h2>25. cp</h2>
 <img src="https://github.com/user-attachments/assets/6dfa2ef0-311b-4610-bedd-1032235f9937" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>26. </h2>
+<p> perintah ini digunakan untuk menyalin berkas atau direktori.</p>
+<h2>26. mv</h2>
 <img src="https://github.com/user-attachments/assets/6faf69d8-84ed-4b9f-805a-bb678d75c042" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>27. </h2>
+<p> perintah ini digunakan untuk memindahkan suatu berkas atau direktori ke lokasi lain contohnya ke documents.</p>
+<h2>27. su</h2>
 <img src="https://github.com/user-attachments/assets/3bbdf148-d00d-4330-91bb-5e3d81ee5e2e" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>28. </h2>
-<img src="https://github.com/user-attachments/assets/4c8fbfee-e3dc-4168-96f2-2f467ab23d53" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>29. </h2>
+<p> perintah ini digunakan untuk menyediakan akses administratif kepada pengguna lain sehingga perintah ini memungkinkan akses shell linux kepada pengguna lain.</p>
+<h2>28. ps</h2>
 <img src="https://github.com/user-attachments/assets/a0b5eb36-8360-4b87-b105-94145e4ef187" width=300/>
-<p> perintah ini digunakan untuk </p>
-<h2>30. </h2>
+<p> perintah ini digunakan untuk menampilkan informasi tentang proses yang sedang berjalan di sistem.</p>
+<h2>29. </h2>
 

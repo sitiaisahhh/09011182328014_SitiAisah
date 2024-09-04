@@ -1,7 +1,7 @@
 <h1> LAPORAN PRAKTIKUM SISTEM OPERASI </h1>
 <h2> PENDAHULUAN </h2>
 <h3> LATAR BELAKANG </h3>
-<p> Linux Ubuntu adalah salah satu distribusi Linux yang populer karena kemudahan penggunaan dan dukungan perangkat keras yang luas. Sebagai sistem operasi open-source, Ubuntu menawarkan keamanan, stabilitas, dan biaya yang rendah. Instalasi Ubuntu adalah langkah awal penting untuk memanfaatkan fitur dan performanya. Laporan ini akan menjelaskan langkah-langkah instalasi Ubuntu, termasuk persiapan, proses instalasi, dan konfigurasi dasar, guna membantu pengguna memulai dengan sistem operasi ini secara efektif.</p>
+<p> Linux Ubuntu adalah salah satu distribusi Linux yang populer karena kemudahan penggunaan dan dukungan perangkat keras yang luas. Sebagai sistem operasi open-source, Ubuntu menawarkan keamanan, stabilitas, dan biaya yang rendah. Instalasi Ubuntu adalah langkah awal penting untuk memanfaatkan fitur dan performanya. Laporan ini akan menjelaskan langkah-langkah instalasi Ubuntu, termasuk persiapan, proses instalasi, dan konfigurasi dasar, untuk membantu pengguna memulai dengan sistem operasi ini secara efektif.</p>
 <h3> TUJUAN </h3>
 1.	Mengetahui prosedur instalasi pada sistem operasi Linux. <br/>
 2.	Mampu menjalankan instalasi melalui Graphic User Interface (GUI) maupun Command Line Linux. <br/>

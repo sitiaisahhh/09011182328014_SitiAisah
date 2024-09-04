@@ -1,7 +1,7 @@
 <h1> LAPORAN PRAKTIKUM SISTEM OPERASI </h1>
 <h2> PENDAHULUAN </h2>
 <h3> LATAR BELAKANG </h3>
-<p> Linux Ubuntu adalah salah satu distribusi Linux yang populer karena kemudahan penggunaan dan dukungan perangkat keras yang luas. Sebagai sistem operasi open-source, Ubuntu menawarkan keamanan, stabilitas, dan biaya yang rendah. Instalasi Ubuntu adalah langkah awal penting untuk memanfaatkan fitur dan performanya. Laporan ini akan menjelaskan langkah-langkah instalasi Ubuntu, termasuk persiapan, proses instalasi, dan konfigurasi dasar, untuk membantu pengguna memulai dengan sistem operasi ini secara efektif.</p>
+<p> Sistem operasi adalah komponen vital yang menghubungkan perangkat keras dengan perangkat lunak, mengelola sumber daya perangkat keras dan menyediakan platform untuk aplikasi berjalan. Di antara berbagai sistem operasi, Linux dikenal karena sifatnya yang open-source, fleksibel, dan aman. Ubuntu, salah satu distribusi Linux yang paling populer dan banyak digunakan, dikembangkan oleh Canonical Ltd. dan pertama kali dirilis pada tahun 2004. Ubuntu bertujuan untuk menyediakan sistem operasi yang mudah digunakan, stabil, dan gratis, dengan dukungan perangkat keras yang luas serta antarmuka yang ramah pengguna. Sebagai distribusi berbasis Debian, Ubuntu menawarkan fitur inovatif, termasuk pembaruan reguler dan dukungan jangka panjang (LTS) selama lima tahun, menjadikannya pilihan ideal untuk berbagai pengguna, dari pemula hingga profesional. Praktikum ini bertujuan untuk memberikan pemahaman tentang instalasi dan konfigurasi Ubuntu serta cara sistem operasi ini dapat meningkatkan efisiensi dan performa perangkat keras.</p>
 <h3> TUJUAN </h3>
 1.	Mengetahui prosedur instalasi pada sistem operasi Linux. <br/>
 2.	Mampu menjalankan instalasi melalui Graphic User Interface (GUI) maupun Command Line Linux. <br/>
@@ -49,14 +49,27 @@
 15. Dan berikut ini tampilan dari menu desktop Linux yang telah diinstal. <br/>
 <img src="https://github.com/user-attachments/assets/ce544181-4aef-4180-9a8b-b2e92424a79b" width=500/><br/>
 
-<h3> Analisis Saat Instalasi Dipilih “/” Pada Opsi MountPoint </h3>
+<h3> Analisis “/” Pada Opsi MountPoint </h3>
 <p> Selama proses instalasi Linux Ubuntu, penting untuk memilih “/” (root) sebagai mount point karena direktori root adalah titik awal dari seluruh struktur sistem file di Linux. Direktori root adalah direktori tertinggi dalam hierarki sistem Linux, tempat semua file dan direktori lainnya berada di bawahnya. Semua komponen sistem operasi, termasuk kernel, file binary, pustaka, dan aplikasi, akan diinstal di bawah direktori root. Jika “/” tidak dipilih sebagai mount point, sistem operasi tidak akan mengetahui lokasi penyimpanan file-file penting tersebut. Memilih “/” sebagai mount point juga memungkinkan partisi utama untuk diakses oleh seluruh sistem, sehingga direktori penting seperti /home, /etc, dan /bin dapat diakses dengan benar. Ini sangat penting untuk memastikan sistem berjalan dengan baik setelah instalasi. </p>
 <h3>	Penjelasan Tentang Ext4, Ext3, Swap, Ntfs, Fat32, Btrfs </h3>
 Ext4 (Fourth Extended Filesystem): Ini adalah sistem file default di banyak distribusi Linux. Ext4 mendukung file dan partisi yang besar serta menawarkan berbagai fitur yang meningkatkan kecepatan dan stabilitas. Dibandingkan dengan Ext3, Ext4 lebih cepat dalam membaca dan menulis data, serta mendukung file hingga 16 Terabyte (TB) dan partisi hingga 1 Exabyte (EB). Ext4 juga memiliki fitur journaling yang membantu melindungi data dari kerusakan, meskipun fitur ini mungkin tidak diperlukan untuk penggunaan yang lebih sederhana. <br/> 
-Ext3 (Third Extended Filesystem): Sistem file ini dikenal stabil dan memiliki fitur journaling untuk melacak perubahan data, yang membuatnya lebih aman jika terjadi crash. Namun, Ext3 tidak secepat dan seefisien Ext4 dalam hal kecepatan dan pengelolaan ruang. <br/>  Swap: Merupakan area di hard disk yang berfungsi sebagai memori virtual ketika RAM penuh. Swap memungkinkan sistem untuk menjalankan aplikasi secara bersamaan atau aplikasi besar meskipun RAM terbatas. Namun, swap lebih lambat daripada RAM karena menggunakan disk, yang dapat menurunkan performa sistem jika digunakan secara berlebihan. <br/> 
-NTFS (New Technology File System): Sistem file ini digunakan pada sistem operasi Windows, tetapi juga dapat diakses dari Linux meskipun dengan keterbatasan. NTFS mendukung file yang lebih besar dari 4 GB dan menyediakan fitur keamanan seperti enkripsi dan izin file. <br/> 
-FAT32 (File Allocation Table 32): Sistem file ini lebih tua namun sangat kompatibel, sering digunakan pada perangkat penyimpanan eksternal. Namun, FAT32 hanya mendukung file hingga 4 GB dan tidak memiliki fitur keamanan. <br/> 
-Btrfs (B-tree File System): Ini adalah sistem file Linux yang menawarkan fitur canggih seperti snapshot dan manajemen ruang yang fleksibel. Meskipun Btrfs memiliki berbagai fitur inovatif, ia masih relatif baru dan tidak selalu secepat Ext4 dalam beberapa kondisi. <br/>
+Ext3 (Third Extended Filesystem): Sistem file ini dikenal stabil dan memiliki fitur journaling untuk melacak perubahan data, yang membuatnya lebih aman jika terjadi crash. Namun, Ext3 tidak secepat dan seefisien Ext4 dalam hal kecepatan dan pengelolaan ruang. <br/>  Swap:
+Penggunaan: Berfungsi sebagai area penyimpanan tambahan untuk RAM di sistem Linux.<br/>  
+Kelebihan: Membantu sistem untuk menjalankan aplikasi lebih besar dari kapasitas RAM yang tersedia dengan menyimpan data sementara di disk.<br/>  
+Kekurangan: Akses ke swap lebih lambat dibandingkan RAM, sehingga kinerja sistem bisa terpengaruh jika terlalu bergantung pada swap.
+ <br/> 
+NTFS (New Technology File System):
+Penggunaan: Sistem file utama untuk Windows NT dan sistem operasi yang lebih baru (seperti Windows 10/11).<br/> 
+Kelebihan: Mendukung fitur seperti enkripsi, kompresi, dan hak akses file yang lebih canggih dibandingkan FAT32. Memungkinkan volume dan file yang sangat besar.<br/> 
+Kekurangan: Kurang kompatibel dengan sistem operasi non-Windows, meskipun dukungan untuk baca/tulis NTFS ada di beberapa sistem Linux. <br/> 
+FAT32 (File Allocation Table 32):
+Penggunaan: Sistem file yang lebih tua yang digunakan di berbagai sistem operasi, termasuk Windows, macOS, dan Linux.<br/> 
+Kelebihan: Kompatibel dengan hampir semua sistem operasi, ideal untuk perangkat penyimpanan portabel seperti USB flash drive.<br/> 
+Kekurangan: Tidak mendukung file yang lebih besar dari 4 GB dan volume lebih besar dari 8 TB. Tidak memiliki fitur seperti journaling.<br/> 
+Btrfs (B-tree File System): <br/>
+Penggunaan: Sistem file yang relatif baru untuk Linux, dirancang untuk menggantikan ext4. <br/>
+Kelebihan: Menawarkan fitur canggih seperti snapshot, pengendalian kesalahan, dan kompresi data. Fleksibel dan mendukung pengelolaan volume yang lebih kompleks. <br/>
+Kekurangan: Masih dianggap kurang stabil dibandingkan ext4 dan mungkin tidak selalu cocok untuk semua jenis penggunaan.<br/>
 
 <h2> PENUTUP </h2>
 <h3> KESIMPULAN </h3>
